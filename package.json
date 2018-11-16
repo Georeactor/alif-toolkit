@@ -1,0 +1,23 @@
+{
+  "name": "alif-toolkit",
+  "version": "1.0.0",
+  "description": "## Origin",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georeactor/alif-toolkit.git"
+  },
+  "author": "Nick Doiron <ndoiron@mapmeld.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Georeactor/alif-toolkit/issues"
+  },
+  "homepage": "https://github.com/Georeactor/alif-toolkit#readme"
+}

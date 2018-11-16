@@ -26,12 +26,26 @@ Consider these game ideas:
 - Tashkeel options
 - English and Chinese translations
 
+## Setup
+
+- Download a Wikipedia no-pictures dataset from Kiwix
+- npm install
+- npm run import-words
+- generate records into MongoDB
+
+## Usage
+
+TODO
+
+- Fill-in-the-blanks example
+- Animals crossword example
+
 ## Technology
 
 MongoDB
 
 ## License
 
-Content / data largely CC-BY-SA Wikipedia and Wiktionary
+Content / data largely CC-BY-SA Wikipedia, Wiktionary, and Kiwix
 
 Code open sourced under an MIT license
