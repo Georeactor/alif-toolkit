@@ -12,10 +12,10 @@ build language games for Arabic-script languages.
 Consider these game ideas:
 
 - Crossword puzzles for younger students with names of animals
-- Fill-in-the-blank where the following letter should show correct continuing form
+- Fill-in-the-blank where the neighboring letters should show connecting forms (for example "العَرَبِ_ة‎" vs "العَرَ بـ_ـة‎")
 - A game where you add long vowels or tashkeel marks
 - Games which show and hide tashkeel based on skill level
-- Games which should support Arabic, Farsi, and Pashto lessons
+- Games which should support Arabic, Farsi, Urdu, and Pashto words
 
 ## Goals
 
