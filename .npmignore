@@ -1,0 +1,11 @@
+src
+tsconfig.json
+tslint.json
+.prettierrc
+*.zim
+.DS_Store
+node_modules
+*.log
+TODO
+jestconfig.json
+__tests__/*
