@@ -1,5 +1,7 @@
 # alif-toolkit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Georeactor/alif-toolkit.svg)](https://greenkeeper.io/)
+
 ## Origin
 
 When I made <a href="https://github.com/mapmeld/crossword-unicode">crossword-unicode</a>
