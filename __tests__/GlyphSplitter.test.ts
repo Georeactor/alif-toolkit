@@ -25,7 +25,6 @@ test('Split a word into letters, with their tashkeel', () => {
 
 test('Split a word into letters, not breaking any LA form', () => {
   expect(GlyphSplitter('لا').length).toBe(1);
-  expect(GlyphSplitter('لا').length).toBe(1);
   expect(GlyphSplitter('ل\u0622').length).toBe(1);
   expect(GlyphSplitter('ل\u0623').length).toBe(1);
   expect(GlyphSplitter('ل\u0625').length).toBe(1);
