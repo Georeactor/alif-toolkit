@@ -36,7 +36,14 @@
     ],
     "indic_three_above": [
       "\u0774"
-    ]
+    ],
+    "fathatan": {
+      "normal": [
+        "\u0627\u064B"
+      ],
+      "final": "\uFD3C",
+      "isolated": "\uFD3D"
+    }
   },
   "beh": {
     "normal": [

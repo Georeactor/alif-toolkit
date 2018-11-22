@@ -152,15 +152,18 @@
   },
   "\u0633\u062C": {
     "isolated": "\uFC1C",
-    "initial": "\uFCAD"
+    "initial": "\uFCAD",
+    "medial": "\uFD34"
   },
   "\u0633\u062D": {
     "isolated": "\uFC1D",
-    "initial": "\uFCAE"
+    "initial": "\uFCAE",
+    "medial": "\uFD35"
   },
   "\u0633\u062E": {
     "isolated": "\uFC1E",
-    "initial": "\uFCAF"
+    "initial": "\uFCAF",
+    "medial": "\uFD36"
   },
   "\u0633\u0645": {
     "isolated": "\uFC1F",
@@ -196,11 +199,14 @@
     "initial": "\uFCB8"
   },
   "\u0637\u0645": {
-    "isolated": "\uFC27"
+    "isolated": "\uFC27",
+    "initial": "\uFD33",
+    "medial": "\uFD3A"
   },
   "\u0638\u0645": {
     "isolated": "\uFC28",
-    "initial": "\uFCB9"
+    "initial": "\uFCB9",
+    "medial": "\uFD3B"
   },
   "\u0639\u062C": {
     "isolated": "\uFC29",
@@ -533,15 +539,18 @@
     "medial": "\uFCE6"
   },
   "\u0633\u0647": {
-    "medial": "\uFCE8"
+    "medial": "\uFCE8",
+    "initial": "\uFD31"
   },
   "\u0634\u0645": {
     "medial": "\uFCE9",
     "isolated": "\uFD0C",
-    "final": "\uFD28"
+    "final": "\uFD28",
+    "initial": "\uFD30"
   },
   "\u0634\u0647": {
-    "medial": "\uFCEA"
+    "medial": "\uFCEA",
+    "initial": "\uFD32"
   },
   "\u0640\u064E\u0651": {
     "medial": "\uFCF2"
@@ -633,15 +642,21 @@
   },
   "\u0634\u062C": {
     "isolated": "\uFD09",
-    "final": "\uFD25"
+    "final": "\uFD25",
+    "initial": "\uFD2D",
+    "medial": "\uFD37"
   },
   "\u0634\u062D": {
     "isolated": "\uFD0A",
-    "final": "\uFD26"
+    "final": "\uFD26",
+    "initial": "\uFD2E",
+    "medial": "\uFD38"
   },
   "\u0634\u062E": {
     "isolated": "\uFD0B",
-    "final": "\uFD27"
+    "final": "\uFD27",
+    "initial": "\uFD2F",
+    "medial": "\uFD39"
   },
   "\u0634\u0631": {
     "isolated": "\uFD0D",
@@ -662,6 +677,331 @@
   "\u0633\u0639": {
     "final": "\uFD17"
   },
-
-  // initial
+  "\u062A\u062C\u0645": {
+    "initial": "\uFD50"
+  },
+  "\u062A\u062D\u062C": {
+    "final": "\uFD51",
+    "initial": "\uFD52"
+  },
+  "\u062A\u062D\u0645": {
+    "initial": "\uFD53"
+  },
+  "\u062A\u062E\u0645": {
+    "initial": "\uFD54"
+  },
+  "\u062A\u0645\u062C": {
+    "initial": "\uFD55"
+  },
+  "\u062A\u0645\u062D": {
+    "initial": "\uFD56"
+  },
+  "\u062A\u0645\u062E": {
+    "initial": "\uFD57"
+  },
+  "\u062C\u0645\u062D": {
+    "final": "\uFD58",
+    "initial": "\uFD59"
+  },
+  "\u062D\u0645\u064A": {
+    "final": "\uFD5A"
+  },
+  "\u062D\u0645\u0649": {
+    "final": "\uFD5B"
+  },
+  "\u0633\u062D\u062C": {
+    "initial": "\uFD5C"
+  },
+  "\u0633\u062C\u062D": {
+    "initial": "\uFD5D"
+  },
+  "\u0633\u062C\u0649": {
+    "final": "\uFD5E"
+  },
+  "\u0633\u0645\u062D": {
+    "final": "\uFD5F",
+    "initial": "\uFD60"
+  },
+  "\u0633\u0645\u062C": {
+    "initial": "\uFD61"
+  },
+  "\u0633\u0645\u0645": {
+    "final": "\uFD62",
+    "initial": "\uFD63"
+  },
+  "\u0635\u062D\u062D": {
+    "final": "\uFD64",
+    "initial": "\uFD65"
+  },
+  "\u0635\u0645\u0645": {
+    "final": "\uFD66"
+  },
+  "\u0634\u062D\u0645": {
+    "final": "\uFD67",
+    "initial": "\uFD68"
+  },
+  "\u0634\u062C\u064A": {
+    "final": "\uFD69"
+  },
+  "\u0634\u0645\u062E": {
+    "final": "\uFD6A",
+    "initial": "\uFD6B"
+  },
+  "\u0634\u0645\u0645": {
+    "final": "\uFD6C",
+    "initial": "\uFD6D"
+  },
+  "\u0636\u062D\u0649": {
+    "final": "\uFD6E"
+  },
+  "\u0636\u062E\u0645": {
+    "final": "\uFD6F",
+    "initial": "\uFD70"
+  },
+  "\u0636\u0645\u062D": {
+    "final": "\uFD71"
+  },
+  "\u0637\u0645\u062D": {
+    "initial": "\uFD72"
+  },
+  "\u0637\u0645\u0645": {
+    "initial": "\uFD73"
+  },
+  "\u0637\u0645\u064A": {
+    "final": "\uFD74"
+  },
+  "\u0639\u062C\u0645": {
+    "final": "\uFD75"
+  },
+  "\u0639\u0645\u0645": {
+    "final": "\uFD76",
+    "initial": "\uFD77"
+  },
+  "\u0639\u0645\u0649": {
+    "final": "\uFD78"
+  },
+  "\u063A\u0645\u0645": {
+    "final": "\uFD79"
+  },
+  "\u063A\u0645\u064A": {
+    "final": "\uFD7A"
+  },
+  "\u063A\u0645\u0649": {
+    "final": "\uFD7B"
+  },
+  "\u0641\u062E\u0645": {
+    "final": "\uFD7C",
+    "initial": "\uFD7D"
+  },
+  "\u0642\u0645\u062D": {
+    "final": "\uFD7E",
+    "initial": "\uFDB4"
+  },
+  "\u0642\u0645\u0645": {
+    "final": "\uFD7F"
+  },
+  "\u0644\u062D\u0645": {
+    "final": "\uFD80",
+    "initial": "\uFDB5"
+  },
+  "\u0644\u062D\u064A": {
+    "final": "\uFD81"
+  },
+  "\u0644\u062D\u0649": {
+    "final": "\uFD82"
+  },
+  "\u0644\u062C\u062C": {
+    "initial": "\uFD83",
+    "final": "\uFD84"
+  },
+  "\u0644\u062E\u0645": {
+    "final": "\uFD85",
+    "initial": "\uFD86"
+  },
+  "\u0644\u0645\u062D": {
+    "final": "\uFD87",
+    "initial": "\uFD88"
+  },
+  "\u0645\u062D\u062C": {
+    "initial": "\uFD89"
+  },
+  "\u0645\u062D\u0645": {
+    "initial": "\uFD8A"
+  },
+  "\u0645\u062D\u064A": {
+    "final": "\uFD8B"
+  },
+  "\u0645\u062C\u062D": {
+    "initial": "\uFD8C"
+  },
+  "\u0645\u062C\u0645": {
+    "initial": "\uFD8D"
+  },
+  "\u0645\u062E\u062C": {
+    "initial": "\uFD8E"
+  },
+  "\u0645\u062E\u0645": {
+    "initial": "\uFD8F"
+  },
+  "\u0645\u062C\u062E": {
+    "initial": "\uFD92"
+  },
+  "\u0647\u0645\u062C": {
+    "initial": "\uFD93"
+  },
+  "\u0647\u0645\u0645": {
+    "initial": "\uFD94"
+  },
+  "\u0646\u062D\u0645": {
+    "initial": "\uFD95"
+  },
+  "\u0646\u062D\u0649": {
+    "final": "\uFD96"
+  },
+  "\u0646\u062C\u0645": {
+    "final": "\uFD97",
+    "initial": "\uFD98"
+  },
+  "\u0646\u062C\u0649": {
+    "final": "\uFD99"
+  },
+  "\u0646\u0645\u064A": {
+    "final": "\uFD9A"
+  },
+  "\u0646\u0645\u0649": {
+    "final": "\uFD9B"
+  },
+  "\u064A\u0645\u0645": {
+    "final": "\uFD9C",
+    "initial": "\uFD9D"
+  },
+  "\u0628\u062E\u064A": {
+    "final": "\uFD9E"
+  },
+  "\u062A\u062C\u064A": {
+    "final": "\uFD9F"
+  },
+  "\u062A\u062C\u0649": {
+    "final": "\uFDA0"
+  },
+  "\u062A\u062E\u064A": {
+    "final": "\uFDA1"
+  },
+  "\u062A\u062E\u0649": {
+    "final": "\uFDA2"
+  },
+  "\u062A\u0645\u064A": {
+    "final": "\uFDA3"
+  },
+  "\u062A\u0645\u0649": {
+    "final": "\uFDA4"
+  },
+  "\u062C\u0645\u064A": {
+    "final": "\uFDA5"
+  },
+  "\u062C\u062D\u0649": {
+    "final": "\uFDA6"
+  },
+  "\u062C\u0645\u0649": {
+    "final": "\uFDA7"
+  },
+  "\u0633\u062E\u0649": {
+    "final": "\uFDA8"
+  },
+  "\u0635\u062D\u064A": {
+    "final": "\uFDA9"
+  },
+  "\u0634\u062D\u064A": {
+    "final": "\uFDAA"
+  },
+  "\u0636\u062D\u064A": {
+    "final": "\uFDAB"
+  },
+  "\u0644\u062C\u064A": {
+    "final": "\uFDAC"
+  },
+  "\u0644\u0645\u064A": {
+    "final": "\uFDAD"
+  },
+  "\u064A\u062D\u064A": {
+    "final": "\uFDAE"
+  },
+  "\u064A\u062C\u064A": {
+    "final": "\uFDAF"
+  },
+  "\u064A\u0645\u064A": {
+    "final": "\uFDB0"
+  },
+  "\u0645\u0645\u064A": {
+    "final": "\uFDB1"
+  },
+  "\u0642\u0645\u064A": {
+    "final": "\uFDB2"
+  },
+  "\u0646\u062D\u064A": {
+    "final": "\uFDB3"
+  },
+  "\u0639\u0645\u064A": {
+    "final": "\uFDB6"
+  },
+  "\u0643\u0645\u064A": {
+    "final": "\uFDB7"
+  },
+  "\u0646\u062C\u062D": {
+    "initial": "\uFDB8",
+    "final": "\uFDBD"
+  },
+  "\u0645\u062E\u064A": {
+    "final": "\uFDB9"
+  },
+  "\u0644\u062C\u0645": {
+    "initial": "\uFDBA",
+    "final": "\uFDBC"
+  },
+  "\u0643\u0645\u0645": {
+    "final": "\uFDBB",
+    "initial": "\uFDC3"
+  },
+  "\u062C\u062D\u064A": {
+    "final": "\uFDBE"
+  },
+  "\u062D\u062C\u064A": {
+    "final": "\uFDBF"
+  },
+  "\u0645\u062C\u064A": {
+    "final": "\uFDC0"
+  },
+  "\u0641\u0645\u064A": {
+    "final": "\uFDC1"
+  },
+  "\u0628\u062D\u064A": {
+    "final": "\uFDC2"
+  },
+  "\u0639\u062C\u0645": {
+    "initial": "\uFDC4"
+  },
+  "\u0635\u0645\u0645": {
+    "initial": "\uFDC5"
+  },
+  "\u0633\u062E\u064A": {
+    "final": "\uFDC6"
+  },
+  "\u0646\u062C\u064A": {
+    "final": "\uFDC7"
+  },
+  "words": {
+    "\u0635\u0644\u06D2": "\uFDF0",
+    "\u0642\u0644\u06D2": "\uFDF1",
+    "\u0627\u0644\u0644\u0647": "\uFDF2",
+    "\u0627\u0643\u0628\u0631": "\uFDF3",
+    "\u0645\u062D\u0645\u062F": "\uFDF4",
+    "\u0635\u0644\u0639\u0645": "\uFDF5",
+    "\u0631\u0633\u0648\u0644": "\uFDF6",
+    "\u0639\u0644\u064A\u0647": "\uFDF7",
+    "\u0648\u0633\u0644\u0645": "\uFDF8",
+    "\u0635\u0644\u0649": "\uFDF9",
+    "\u0635\u0644\u0649\u0627\u0644\u0644\u0647\u0639\u0644\u064A\u0647\u0648\u0633\u0644\u0645": "\uFDFA",
+    "\u062C\u0644\u062C\u0644\u0627\u0644\u0647": "\uFDFB",
+    "\u0631\u06CC\u0627\u0644": "\uFDFC"
+  }
 }
