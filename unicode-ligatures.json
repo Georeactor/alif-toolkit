@@ -989,6 +989,22 @@
   "\u0646\u062C\u064A": {
     "final": "\uFDC7"
   },
+  "\u0644\u0622": {
+    "isolated": "\uFEF5",
+    "final": "\uFEF6"
+  },
+  "\u0644\u0623": {
+    "isolated": "\uFEF7",
+    "final": "\uFEF8"
+  },
+  "\u0644\u0625": {
+    "isolated": "\uFEF9",
+    "final": "\uFEFA"
+  },
+  "\u0644\u0627": {
+    "isolated": "\uFEFB",
+    "final": "\uFEFC"
+  },
   "words": {
     "\u0635\u0644\u06D2": "\uFDF0",
     "\u0642\u0644\u06D2": "\uFDF1",

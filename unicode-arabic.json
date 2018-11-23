@@ -3,18 +3,30 @@
     "normal": [
       "\u0627"
     ],
-    "madda_above": [
-      "\u0622",
-      "\u0627\u0653"
-    ],
-    "hamza_above": [
-      "\u0623",
-      "\u0627\u0654"
-    ],
-    "hamza_below": [
-      "\u0625",
-      "\u0627\u0655"
-    ],
+    "madda_above": {
+      "normal": [
+        "\u0622",
+        "\u0627\u0653"
+      ],
+      "isolated": "\uFE81",
+      "final": "\uFE82"
+    },
+    "hamza_above": {
+      "normal": [
+        "\u0623",
+        "\u0627\u0654"
+      ],
+      "isolated": "\uFE83",
+      "final": "\uFE84"
+    },
+    "hamza_below": {
+      "normal": [
+        "\u0625",
+        "\u0627\u0655"
+      ],
+      "isolated": "\uFE87",
+      "final": "\uFE88"
+    },
     "wasla": {
       "normal": "\u0671",
       "isolated": "\uFB50",
@@ -43,7 +55,9 @@
       ],
       "final": "\uFD3C",
       "isolated": "\uFD3D"
-    }
+    },
+    "isolated": "\uFE8D",
+    "final": "\uFE8E"
   },
   "beh": {
     "normal": [
@@ -81,12 +95,18 @@
     ],
     "small_meem_above": [
       "\u08B6"
-    ]
+    ],
+    "isolated": "\uFE8F",
+    "final": "\uFE90",
+    "initial": "\uFE91",
+    "medial": "\uFE92",
   },
-  "teh_marbuta": {
+  "teh marbuta": {
     "normal": [
       "\u0629"
-    ]
+    ],
+    "isolated": "\uFE93",
+    "final": "\uFE94"
   },
   "teh": {
     "normal": [
@@ -100,12 +120,20 @@
     ],
     "small_teh_above": [
       "\u08B8"
-    ]
+    ],
+    "isolated": "\uFE95",
+    "final": "\uFE96",
+    "initial": "\uFE97",
+    "medial": "\uFE98"
   },
   "theh": {
     "normal": [
       "\u062B"
-    ]
+    ],
+    "isolated": "\uFE99",
+    "final": "\uFE9A",
+    "initial": "\uFE9B",
+    "medial": "\uFE9C"
   },
   "jeem": {
     "normal": [
@@ -113,7 +141,11 @@
     ],
     "two_dots_above": [
       "\u08A2"
-    ]
+    ],
+    "isolated": "\uFE9D",
+    "final": "\uFE9E",
+    "initial": "\uFE9F",
+    "medial": "\uFEA0"
   },
   "hah": {
     "normal": [
@@ -145,12 +177,20 @@
     ],
     "indic_four_below": [
       "\u077C"
-    ]
+    ],
+    "isolated": "\uFEA1",
+    "final": "\uFEA2",
+    "initial": "\uFEA3",
+    "medial": "\uFEA4"
   },
   "khah": {
     "normal": [
       "\u062E"
-    ]
+    ],
+    "isolated": "\uFEA5",
+    "final": "\uFEA6",
+    "initial": "\uFEA7",
+    "medial": "\uFEA8"
   },
   "dal": {
     "normal": [
@@ -182,12 +222,16 @@
     ],
     "three_dots_below": [
       "\u08AE"
-    ]
+    ],
+    "isolated": "\uFEA9",
+    "final": "\uFEAA"
   },
   "thal": {
     "normal": [
       "\u0630"
-    ]
+    ],
+    "isolated": "\uFEAB",
+    "final": "\uFEAC"
   },
   "reh": {
     "normal": [
@@ -234,7 +278,9 @@
     ],
     "small_noon_above": [
       "\u08B9"
-    ]
+    ],
+    "isolated": "\uFEAD",
+    "final": "\uFEAE"
   },
   "zain": {
     "normal": [
@@ -242,7 +288,9 @@
     ],
     "inverted_v_above": [
       "\u08B2"
-    ]
+    ],
+    "isolated": "\uFEAF",
+    "final": "\uFEB0"
   },
   "seen": {
     "normal": [
@@ -271,7 +319,11 @@
     ],
     "inverted_v": [
       "\u077E"
-    ]
+    ],
+    "isolated": "\uFEB1",
+    "final": "\uFEB2",
+    "initial": "\uFEB3",
+    "medial": "\uFEB4"
   },
   "sheen": {
     "normal": [
@@ -279,7 +331,11 @@
     ],
     "dot_below": [
       "\u06FA"
-    ]
+    ],
+    "isolated": "\uFEB5",
+    "final": "\uFEB6",
+    "initial": "\uFEB7",
+    "medial": "\uFEB8"
   },
   "sad": {
     "normal": [
@@ -293,7 +349,11 @@
     ],
     "three_dots_below": [
       "\u08AF"
-    ]
+    ],
+    "isolated": "\uFEB9",
+    "final": "\uFEBA",
+    "initial": "\uFEBB",
+    "medial": "\uFEBC"
   },
   "dad": {
     "normal": [
@@ -301,7 +361,11 @@
     ],
     "dot_below": [
       "\u06FB"
-    ]
+    ],
+    "isolated": "\uFEBD",
+    "final": "\uFEBE",
+    "initial": "\uFEBF",
+    "medial": "\uFEC0"
   },
   "tah": {
     "normal": [
@@ -312,12 +376,20 @@
     ],
     "two_dots_above": [
       "\u08A3"
-    ]
+    ],
+    "isolated": "\uFEC1",
+    "final": "\uFEC2",
+    "initial": "\uFEC3",
+    "medial": "\uFEC4"
   },
   "zah": {
     "normal": [
       "\u0638"
-    ]
+    ],
+    "isolated": "\uFEC5",
+    "final": "\uFEC6",
+    "initial": "\uFEC7",
+    "medial": "\uFEC8"
   },
   "ain": {
     "normal": [
@@ -337,7 +409,11 @@
     ],
     "three_dots_below": [
       "\u08B3"
-    ]
+    ],
+    "isolated": "\uFEC9",
+    "final": "\uFECA",
+    "initial": "\uFECB",
+    "medial": "\uFECC"
   },
   "ghain": {
     "normal": [
@@ -345,7 +421,11 @@
     ],
     "dot_below": [
       "\u06FC"
-    ]
+    ],
+    "isolated": "\uFECD",
+    "final": "\uFECE",
+    "initial": "\uFECF",
+    "medial": "\uFED0"
   },
   "feh": {
     "normal": [
@@ -371,7 +451,11 @@
     ],
     "dot_below_three_dots_above": [
       "\u08A4"
-    ]
+    ],
+    "isolated": "\uFED1",
+    "final": "\uFED2",
+    "initial": "\uFED3",
+    "medial": "\uFED4"
   },
   "qaf": {
     "normal": [
@@ -388,7 +472,11 @@
     ],
     "dot_below": [
       "\u08A5"
-    ]
+    ],
+    "isolated": "\uFED5",
+    "final": "\uFED6",
+    "initial": "\uFED7",
+    "medial": "\uFED8"
   },
   "kaf": {
     "normal": [
@@ -411,7 +499,11 @@
     ],
     "dot_below": [
       "\u08B4"
-    ]
+    ],
+    "isolated": "\uFED9",
+    "final": "\uFEDA",
+    "initial": "\uFEDB",
+    "medial": "\uFEDC"
   },
   "lam": {
     "normal": [
@@ -434,7 +526,11 @@
     ],
     "double_bar": [
       "\u08A6"
-    ]
+    ],
+    "isolated": "\uFEDD",
+    "final": "\uFEDE",
+    "initial": "\uFEDF",
+    "medial": "\uFEE0"
   },
   "meem": {
     "normal": [
@@ -448,7 +544,11 @@
     ],
     "three_dots_above": [
       "\u08A7"
-    ]
+    ],
+    "isolated": "\uFEE1",
+    "final": "\uFEE2",
+    "initial": "\uFEE3",
+    "medial": "\uFEE4"
   },
   "noon": {
     "normal": [
@@ -471,21 +571,33 @@
     ],
     "small_v": [
       "\u0769"
-    ]
+    ],
+    "isolated": "\uFEE5",
+    "final": "\uFEE6",
+    "initial": "\uFEE7",
+    "medial": "\uFEE8"
   },
   "heh": {
     "normal": [
       "\u0647"
-    ]
+    ],
+    "isolated": "\uFEE9",
+    "final": "\uFEEA",
+    "initial": "\uFEEB",
+    "medial": "\uFEEC"
   },
   "waw": {
     "normal": [
       "\u0648"
     ],
-    "hamza_above": [
-      "\u0624",
-      "\u0648\u0654"
-    ],
+    "hamza_above": {
+      "normal": [
+        "\u0624",
+        "\u0648\u0654"
+      ],
+      "isolated": "\uFE85",
+      "final": "\uFE86"
+    },
     "high_hamza": [
       "\u0676",
       "\u0648\u0674"
@@ -507,7 +619,9 @@
     ],
     "dot_within": [
       "\u08AB"
-    ]
+    ],
+    "isolated": "\uFEED",
+    "final": "\uFEEE"
   },
   "alef_maksura": {
     "normal": [
@@ -518,16 +632,24 @@
       "\u064A\u0654"
     ],
     "inital": "\uFBE8",
-    "medial": "\uFBE9"
+    "medial": "\uFBE9",
+    "isolated": "\uFEEF",
+    "final": "\uFEF0"
   },
   "yeh": {
     "normal": [
       "\u064A"
     ],
-    "hamza_above": [
-      "\u0626",
-      "\u0649\u0654"
-    ],
+    "hamza_above": {
+      "normal": [
+        "\u0626",
+        "\u0649\u0654"
+      ],
+      "isolated": "\uFE89",
+      "final": "\uFE8A",
+      "initial": "\uFE8B",
+      "medial": "\uFE8C"
+    },
     "two_dots_below_hamza_above": [
       "\u08A8"
     ],
@@ -552,7 +674,11 @@
     ],
     "two_dots_below_small_noon_above": [
       "\u08BA"
-    ]
+    ],
+    "isolated": "\uFEF1",
+    "final": "\uFEF2",
+    "initial": "\uFEF3",
+    "medial": "\uFEF4"
   },
   "tteh": {
     "normal": [
