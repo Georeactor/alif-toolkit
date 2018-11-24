@@ -1,4 +1,4 @@
-{
+const ligatureReference : any = {
   "\u0626\u0627": {
     "isolated": "\uFBEA",
     "final": "\uFBEB"
@@ -734,7 +734,8 @@
     "initial": "\uFD65"
   },
   "\u0635\u0645\u0645": {
-    "final": "\uFD66"
+    "final": "\uFD66",
+    "initial": "\uFDC5"
   },
   "\u0634\u062D\u0645": {
     "final": "\uFD67",
@@ -771,7 +772,8 @@
     "final": "\uFD74"
   },
   "\u0639\u062C\u0645": {
-    "final": "\uFD75"
+    "final": "\uFD75",
+    "initial": "\uFDC4"
   },
   "\u0639\u0645\u0645": {
     "final": "\uFD76",
@@ -977,12 +979,6 @@
   "\u0628\u062D\u064A": {
     "final": "\uFDC2"
   },
-  "\u0639\u062C\u0645": {
-    "initial": "\uFDC4"
-  },
-  "\u0635\u0645\u0645": {
-    "initial": "\uFDC5"
-  },
   "\u0633\u062E\u064A": {
     "final": "\uFDC6"
   },
@@ -1020,4 +1016,5 @@
     "\u062C\u0644\u062C\u0644\u0627\u0644\u0647": "\uFDFB",
     "\u0631\u06CC\u0627\u0644": "\uFDFC"
   }
-}
+};
+export default ligatureReference;

@@ -1,28 +1,28 @@
-{
+const arabicReference : any = {
   "alef": {
     "normal": [
       "\u0627"
     ],
     "madda_above": {
       "normal": [
-        "\u0622",
-        "\u0627\u0653"
+        "\u0627\u0653",
+        "\u0622"
       ],
       "isolated": "\uFE81",
       "final": "\uFE82"
     },
     "hamza_above": {
       "normal": [
-        "\u0623",
-        "\u0627\u0654"
+        "\u0627\u0654",
+        "\u0623"
       ],
       "isolated": "\uFE83",
       "final": "\uFE84"
     },
     "hamza_below": {
       "normal": [
-        "\u0625",
-        "\u0627\u0655"
+        "\u0627\u0655",
+        "\u0625"
       ],
       "isolated": "\uFE87",
       "final": "\uFE88"
@@ -99,7 +99,7 @@
     "isolated": "\uFE8F",
     "final": "\uFE90",
     "initial": "\uFE91",
-    "medial": "\uFE92",
+    "medial": "\uFE92"
   },
   "teh marbuta": {
     "normal": [
@@ -666,9 +666,6 @@
     "three_dots_below": [
       "\u06D1"
     ],
-    "two_dots_below_hamza_above": [
-      "\u08A8"
-    ],
     "two_dots_below_dot_above": [
       "\u08A9"
     ],
@@ -799,7 +796,7 @@
   },
   "dul": {
     "normal": [
-      "\u068F"
+      "\u068F",
       "\u068E"
     ],
     "isolated": "\uFB86",
@@ -1086,4 +1083,5 @@
       "\u08BD"
     ]
   }
-}
+};
+export default arabicReference;

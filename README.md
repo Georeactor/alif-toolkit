@@ -37,7 +37,33 @@ Consider these game ideas:
 
 ## Usage
 
-TODO
+```javascript
+import { BaselineSplitter, GlyphSplitter, Normal } from 'alif-toolkit';
+
+// splitters
+let val = BaselineSplitter('كرة');
+expect(val).toEqual(['كر','ة']);
+
+let val2 = GlyphSplitter('كرة بلوخ');
+expect(val2).toEqual(['ك','ر','ة',' ','ب','ل','و','خ']);
+
+// normalization
+
+// this is an alif + accent which can be split into two more common chars
+let val3 = Normal("\u0673");
+expect(val3).toEqual("\u0627\u065F");
+
+// this is a presentation form (isolated, initial, medial, final)
+// by default it is replaced by the standard typed letter
+let val4 = Normal("\uFE9F");
+expect(val4).toEqual("\u062C");
+
+// you can tell Normal not to change any presentation forms
+let val5 = Normal("\uFE9F", false);
+expect(val5).toEqual("\uFE9F");
+```
+
+### Examples
 
 - Fill-in-the-blanks example
 - Animals crossword example
