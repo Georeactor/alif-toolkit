@@ -27,5 +27,5 @@ test('Return simplified characters of a ligature', () => {
 });
 
 /*
- now do parent letter with the broken code from before
+ now do parent/base letter with the broken code from before
 */

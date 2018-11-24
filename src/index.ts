@@ -201,7 +201,54 @@ export function Normal (word: string, breakPresentationForm?: boolean) {
   return returnable;
 }
 
-export function ParentLetter (word : string) {
+export function CharShaper (letter: string, form: string) {
+  if (!isArabic(letter)) {
+    // fail not Arabic
+    throw new Error('Not Arabic');
+  }
+
+  for (let w = 0; w < letterList.length; w++) {
+    // ok so we are checking this potential lettertron
+    let letterForms = arabicReference[letterList[w]];
+    let versions = Object.keys(letterForms);
+
+    for (let v = 0; v < versions.length; v++) {
+      let localVersion = letterForms[versions[v]];
+      if (localVersion === letter || (typeof localVersion === 'object' && localVersion.indexOf && localVersion.indexOf(letter) > -1)) {
+        if (versions.indexOf(form) > -1) {
+          return letterForms[form];
+        }
+      }
+    }
+  }
+}
+
+export function WordShaper (word: string) {
+  let state = 'initial';
+  let output = '';
+  for (let w = 0; w < word.length; w++) {
+    if (!isArabic(word[w])) {
+      // space or other non-Arabic
+      output += word[w];
+      state = 'initial';
+    } else if (tashkeel.indexOf(word[w]) > -1) {
+      // tashkeel - add without changing state
+      output += word[w];
+    } else if ((w === word.length - 1) // last letter
+      || (w < word.length - 1 && !isArabic(word[w + 1])) // next letter is space or other non-Arabic
+      || (lineBreakers.indexOf(word[w]) > -1)) { // this letter is known to break lines
+
+      output += CharShaper(word[w], state === 'initial' ? 'isolated' : 'final');
+      state = 'initial';
+    } else {
+      output += CharShaper(word[w], state);
+      state = 'medial';
+    }
+  }
+  return output;
+}
+
+export function ParentLetter (word: string) {
   let returnable = '';
   word.split('').forEach((letter) => {
     if (!isArabic(letter)) {

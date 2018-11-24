@@ -38,7 +38,13 @@ Consider these game ideas:
 ## Usage
 
 ```javascript
-import { BaselineSplitter, GlyphSplitter, Normal } from 'alif-toolkit';
+import {
+  BaselineSplitter,
+  GlyphSplitter,
+  Normal,
+  CharShaper,
+  WordShaper
+} from 'alif-toolkit';
 
 // splitters
 let val = BaselineSplitter('كرة');
@@ -61,6 +67,15 @@ expect(val4).toEqual("\u062C");
 // you can tell Normal not to change any presentation forms
 let val5 = Normal("\uFE9F", false);
 expect(val5).toEqual("\uFE9F");
+
+
+// text-shaping - individual characters
+let val6 = CharShaper("\u062C", "initial");
+expect(val6).toEqual("\uFE9F");
+
+// text-shaping - words with context
+let val7 = WordShaper("\u062C\u062C\u062C");
+expect(val7).toEqual("\uFE9F\uFEA0\uFE9E");
 ```
 
 ### Examples
