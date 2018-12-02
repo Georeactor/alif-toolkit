@@ -22,8 +22,22 @@ test('Return standard version of an initial / final / medial form', () => {
   expect(val).toEqual("\uFE9F");
 });
 
-test('Return simplified characters of a ligature', () => {
+test('Keep Latin alphabet and tashkeel marks unchanged', () => {
+  let val = Normal("\u062C\u0605");
+  expect(val).toEqual("\u062C\u0605");
 
+  val = Normal("hello world");
+  expect(val).toEqual("hello world");
+});
+
+test('Return simplified characters of a text-shapeable ligature', () => {
+  let val = Normal("\uFBEB");
+  expect(val).toEqual("\u0626\u0627");
+});
+
+test('Return simplified characters of a full word ligature', () => {
+  let val = Normal("\uFDF0");
+  expect(val).toEqual("\u0635\u0644\u06D2");
 });
 
 /*

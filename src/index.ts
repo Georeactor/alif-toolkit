@@ -2,6 +2,8 @@ import arabicReference from './unicode-arabic';
 import ligatureReference from './unicode-ligatures';
 
 const letterList = Object.keys(arabicReference);
+const ligatureList = Object.keys(ligatureReference);
+const ligatureWordList = Object.keys(ligatureReference.words);
 
 const arabicBlocks = [
   [0x0600, 0x06FF], // Arabic https://www.unicode.org/charts/PDF/U0600.pdf
@@ -124,6 +126,7 @@ export function BaselineSplitter (word : string) {
 }
 
 export function Normal (word: string, breakPresentationForm?: boolean) {
+  // default is to turn initial/isolated/medial/final presentation form to generic
   if (typeof breakPresentationForm === 'undefined') {
     breakPresentationForm = true;
   }
@@ -148,12 +151,12 @@ export function Normal (word: string, breakPresentationForm?: boolean) {
             let form = localVersion[embeddedForms[ef]];
             if (form === letter || (typeof form === 'object' && form.indexOf && form.indexOf(letter) > -1)) {
               // match
-              console.log('embedded match');
+              // console.log('embedded match');
               if (form === letter) {
                 // match exact
                 if (breakPresentationForm && localVersion['normal'] && ['isolated', 'initial', 'medial', 'final'].indexOf(embeddedForms[ef]) > -1) {
                   // replace presentation form
-                  console.log('keeping normal form of the letter');
+                  // console.log('keeping normal form of the letter');
                   if (typeof localVersion['normal'] === 'object') {
                     returnable += localVersion['normal'][0];
                   } else {
@@ -161,13 +164,13 @@ export function Normal (word: string, breakPresentationForm?: boolean) {
                   }
                   return;
                 }
-                console.log('keeping this letter');
+                // console.log('keeping this letter');
                 returnable += letter;
                 return;
               } else if (typeof form === 'object' && form.indexOf && form.indexOf(letter) > -1) {
                 // match
                 returnable += form[0];
-                console.log('added the first letter from the same array');
+                // console.log('added the first letter from the same array');
                 return;
               }
             }
@@ -176,7 +179,7 @@ export function Normal (word: string, breakPresentationForm?: boolean) {
           // match exact
           if (breakPresentationForm && letterForms['normal'] && ['isolated', 'initial', 'medial', 'final'].indexOf(versions[v]) > -1) {
             // replace presentation form
-            console.log('keeping normal form of the letter');
+            // console.log('keeping normal form of the letter');
             if (typeof letterForms['normal'] === 'object') {
               returnable += letterForms['normal'][0];
             } else {
@@ -184,19 +187,42 @@ export function Normal (word: string, breakPresentationForm?: boolean) {
             }
             return;
           }
-          console.log('keeping this letter');
+          // console.log('keeping this letter');
           returnable += letter;
           return;
         } else if (typeof localVersion === 'object' && localVersion.indexOf && localVersion.indexOf(letter) > -1) {
           // match
           returnable += localVersion[0];
-          console.log('added the first letter from the same array');
+          // console.log('added the first letter from the same array');
           return;
         }
       }
     }
+    // try ligatures
+    for (let v2 = 0; v2 < ligatureList.length; v2++) {
+      let normalForm = ligatureList[v2];
+
+      if (normalForm !== 'words') {
+        let ligForms = Object.keys(ligatureReference[normalForm]);
+        for (let f = 0; f < ligForms.length; f++) {
+          if (ligatureReference[normalForm][ligForms[f]] === letter) {
+            returnable += normalForm;
+            return;
+          }
+        }
+      }
+    }
+    // try words ligatures
+    for (let v3 = 0; v3 < ligatureWordList.length; v3++) {
+      let normalForm = ligatureWordList[v3];
+      if (ligatureReference.words[normalForm] === letter) {
+        returnable += normalForm;
+        return;
+      }
+    }
+
     returnable += letter;
-    console.log('kept the letter')
+    // console.log('kept the letter')
   });
   return returnable;
 }
@@ -308,7 +334,7 @@ export function ParentLetter (word: string) {
       }
     }
     returnable += letter;
-    console.log('kept the letter')
+    // console.log('kept the letter')
   });
   return returnable;
 }
