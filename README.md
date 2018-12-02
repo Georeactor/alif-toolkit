@@ -27,7 +27,9 @@ import {
   GlyphSplitter,
   Normal,
   CharShaper,
-  WordShaper
+  WordShaper,
+  ParentLetter,
+  GrandparentLetter
 } from 'alif-toolkit';
 
 // splitters
@@ -61,13 +63,23 @@ expect(val6).toEqual("\uFE9F");
 let val7 = WordShaper("\u062C\u062C\u062C");
 expect(val7).toEqual("\uFE9F\uFEA0\uFE9E");
 
-// char in Unicode range?
+// char in any Arabic Unicode range? (normal, extended, presentation forms)
 if (isArabic(myChar)) { }
 word.forEach((letter) => {
   if (!isArabic(letter)) {
     // not all Arabic in this string
   }
 });
+
+// parent / grandparent entry in the Unicode JSON reference
+let alif = "\u0627",
+    alifOptions = ParentLetter(alif);
+console.log(alif["final"]);
+console.log(alif["wavy_hamza_above"]);
+
+let alif_hamza_below_isolated = "\uFE87",
+    alif_hamza_below = ParentLetter(alif_hamza_below_isolated),
+    alif = GrandparentLetter(alif_hamza_below_isolated);
 ```
 
 ### Examples
