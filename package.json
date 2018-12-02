@@ -1,6 +1,6 @@
 {
   "name": "alif-toolkit",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Tools for Arabic language word games",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
