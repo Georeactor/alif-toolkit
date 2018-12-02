@@ -22,6 +22,7 @@ first time in MIT-licensed JavaScript / TypeScript.
 
 ```javascript
 import {
+  isArabic,
   BaselineSplitter,
   GlyphSplitter,
   Normal,
@@ -59,6 +60,14 @@ expect(val6).toEqual("\uFE9F");
 // text-shaping - words with context
 let val7 = WordShaper("\u062C\u062C\u062C");
 expect(val7).toEqual("\uFE9F\uFEA0\uFE9E");
+
+// char in Unicode range?
+if (isArabic(myChar)) { }
+word.forEach((letter) => {
+  if (!isArabic(letter)) {
+    // not all Arabic in this string
+  }
+});
 ```
 
 ### Examples
