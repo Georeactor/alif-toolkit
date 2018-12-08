@@ -631,7 +631,7 @@ const arabicReference : any = {
       "\u0626",
       "\u064A\u0654"
     ],
-    "inital": "\uFBE8",
+    "initial": "\uFBE8",
     "medial": "\uFBE9",
     "isolated": "\uFEEF",
     "final": "\uFEF0"
@@ -683,7 +683,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB66",
     "final": "\uFB67",
-    "inital": "\uFB68",
+    "initial": "\uFB68",
     "medial": "\uFB69"
   },
   "tteheh": {
@@ -692,7 +692,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB5E",
     "final": "\uFB5F",
-    "inital": "\uFB60",
+    "initial": "\uFB60",
     "medial": "\uFB61"
   },
   "beeh": {
@@ -713,7 +713,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB56",
     "final": "\uFB57",
-    "inital": "\uFB58",
+    "initial": "\uFB58",
     "medial": "\uFB59"
   },
   "teheh": {
@@ -722,7 +722,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB62",
     "final": "\uFB63",
-    "inital": "\uFB64",
+    "initial": "\uFB64",
     "medial": "\uFB65"
   },
   "beheh": {
@@ -731,7 +731,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB5A",
     "final": "\uFB5B",
-    "inital": "\uFB5C",
+    "initial": "\uFB5C",
     "medial": "\uFB5D"
   },
   "nyeh": {
@@ -740,7 +740,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB76",
     "final": "\uFB77",
-    "inital": "\uFB78",
+    "initial": "\uFB78",
     "medial": "\uFB79"
   },
   "dyeh": {
@@ -749,7 +749,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB72",
     "final": "\uFB73",
-    "inital": "\uFB74",
+    "initial": "\uFB74",
     "medial": "\uFB75"
   },
   "tcheh": {
@@ -761,7 +761,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB7A",
     "final": "\uFB7B",
-    "inital": "\uFB7C",
+    "initial": "\uFB7C",
     "medial": "\uFB7D"
   },
   "tcheheh": {
@@ -770,7 +770,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB7E",
     "final": "\uFB7F",
-    "inital": "\uFB80",
+    "initial": "\uFB80",
     "medial": "\uFB81"
   },
   "ddal": {
@@ -822,7 +822,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB6A",
     "final": "\uFB6B",
-    "inital": "\uFB6C",
+    "initial": "\uFB6C",
     "medial": "\uFB6D"
   },
   "peheh": {
@@ -831,7 +831,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB6E",
     "final": "\uFB6F",
-    "inital": "\uFB70",
+    "initial": "\uFB70",
     "medial": "\uFB71"
   },
   "keheh": {
@@ -849,7 +849,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB8E",
     "final": "\uFB8F",
-    "inital": "\uFB90",
+    "initial": "\uFB90",
     "medial": "\uFB91"
   },
   "ng": {
@@ -858,7 +858,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFBD3",
     "final": "\uFBD4",
-    "inital": "\uFBD5",
+    "initial": "\uFBD5",
     "medial": "\uFBD6"
   },
   "gaf": {
@@ -879,7 +879,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB92",
     "final": "\uFB93",
-    "inital": "\uFB94",
+    "initial": "\uFB94",
     "medial": "\uFB95"
   },
   "ngoeh": {
@@ -888,7 +888,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB9A",
     "final": "\uFB9B",
-    "inital": "\uFB9C",
+    "initial": "\uFB9C",
     "medial": "\uFB9D"
   },
   "gueh": {
@@ -897,7 +897,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFB96",
     "final": "\uFB97",
-    "inital": "\uFB98",
+    "initial": "\uFB98",
     "medial": "\uFB99"
   },
   "noon ghunna": {
@@ -913,7 +913,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFBA0",
     "final": "\uFBA1",
-    "inital": "\uFBA2",
+    "initial": "\uFBA2",
     "medial": "\uFBA3"
   },
   "heh doachashmee": {
@@ -922,7 +922,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFBAA",
     "final": "\uFBAB",
-    "inital": "\uFBAC",
+    "initial": "\uFBAC",
     "medial": "\uFBAD"
   },
   "heh goal": {
@@ -935,7 +935,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFBA6",
     "final": "\uFBA7",
-    "inital": "\uFBA8",
+    "initial": "\uFBA8",
     "medial": "\uFBA9"
   },
   "teh marbuta goal": {
@@ -1016,7 +1016,7 @@ const arabicReference : any = {
     ],
     "isolated": "\uFBE4",
     "final": "\uFBE5",
-    "inital": "\uFBE6",
+    "initial": "\uFBE6",
     "medial": "\uFBE7"
   },
   "yeh barree": {

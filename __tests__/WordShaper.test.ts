@@ -10,6 +10,12 @@ test('Return isolated version of a letter written 1x', () => {
   expect(val).toEqual("\uFE9D");
 });
 
+test('Shaped does not come back undefined', () => {
+  // this was caused by a letter marked "inital" and not "initial"
+  let val = WordShaper("اوبروکرزه");
+  expect(val.indexOf("undefined")).toEqual(-1);
+});
+
 test('LA by itself', () => {
   let val = WordShaper("لا");
   expect(val).toEqual("\uFEFB");
