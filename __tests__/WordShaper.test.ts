@@ -11,9 +11,16 @@ test('Return isolated version of a letter written 1x', () => {
 });
 
 test('Shaped does not come back undefined', () => {
-  // this was caused by a letter marked "inital" and not "initial"
-  let val = WordShaper("اوبروکرزه");
+  // one was caused by a letter marked "inital" and not "initial"
+  // other by hamza-alone
+  // other by embedded letter
+  let val = WordShaper("اوبروکرزه"),
+      val2 = WordShaper("البؤساء"),
+      val3 = WordShaper("فیء");
+
   expect(val.indexOf("undefined")).toEqual(-1);
+  expect(val2.indexOf("undefined")).toEqual(-1);
+  expect(val3.indexOf("undefined")).toEqual(-1);
 });
 
 test('LA by itself', () => {
