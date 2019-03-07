@@ -1044,6 +1044,7 @@ const arabicReference : any = {
     "normal": [
       "\u06D5"
     ],
+    "final": "\uFEEA",
     "yeh_above": {
       "normal": [
         "\u06C0",

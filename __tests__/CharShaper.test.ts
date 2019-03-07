@@ -13,6 +13,12 @@ test('Return isolated, initial, medial, and final forms of normal letter', () =>
   val = CharShaper('\u0628', 'final');
   expect(val).toEqual("\uFE90");
 });
+
+test('Return final version of ە', () => {
+  let val = CharShaper('\u06D5', 'final');
+  expect(val).toEqual('\uFEEA');
+});
+
 //
 // test('Return isolated, initial, medial, and final forms of not-normal letter', () => {
 //   let val = CharShaper('', 'isolated');
