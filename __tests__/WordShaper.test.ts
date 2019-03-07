@@ -37,3 +37,8 @@ test('LA at end of word', () => {
   let val = WordShaper("آهنغركلا");
   expect(val[val.length - 1]).toEqual("\uFEFC")
 });
+
+test('road label', () => {
+  let val = WordShaper("حەیدەری");
+  expect(val).toEqual("ﺣﻪﯾﺪەﺭﯼ");
+});

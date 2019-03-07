@@ -12,9 +12,7 @@ export function CharShaper (letter: string, form: string) {
     // hamza alone
     return "\u0621";
   }
-
-  // console.log(letter.charCodeAt(0) + ' in form ' + form);
-
+  
   for (let w = 0; w < letterList.length; w++) {
     // ok so we are checking this potential lettertron
     let letterForms = arabicReference[letterList[w]];
