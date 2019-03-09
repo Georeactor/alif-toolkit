@@ -38,7 +38,12 @@ test('LA at end of word', () => {
   expect(val[val.length - 1]).toEqual("\uFEFC")
 });
 
-test('road label', () => {
+test('road label with unusual char', () => {
   let val = WordShaper("حەیدەری");
   expect(val).toEqual("ﺣﻪﯾﺪەﺭﯼ");
+});
+
+test('Arabic digits', () => {
+  let val = WordShaper("\u0661\u0662\u0663");
+  expect(val).toEqual("١٢٣");
 });

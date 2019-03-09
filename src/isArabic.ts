@@ -10,8 +10,8 @@ const arabicBlocks = [
 ];
 
 export function isArabic (char : string) {
-  if (char.length > 2) {
-    // allow the newer numerals which appear to have length=2
+  if (char.length > 1) {
+    // allow the newer chars?
     throw new Error('isArabic works on only one-character strings');
   }
   let code = char.charCodeAt(0);
@@ -22,4 +22,13 @@ export function isArabic (char : string) {
     }
   }
   return false;
+}
+
+export function isMath (char : string) {
+  if (char.length > 2) {
+    // allow the newer chars?
+    throw new Error('isMath works on only one-character strings');
+  }
+  let code = char.charCodeAt(0);
+  return (code >= 0x660 && code <= 0x66C);
 }

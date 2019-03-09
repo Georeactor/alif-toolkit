@@ -1,4 +1,4 @@
-import { isArabic } from './isArabic';
+import { isArabic, isMath } from './isArabic';
 import { tashkeel, lineBreakers, lams, alefs } from './reference';
 import { CharShaper } from './CharShaper';
 import ligatureReference from './unicode-ligatures';
@@ -18,7 +18,7 @@ export function WordShaper (word: string) {
       }
     }
 
-    if (!isArabic(word[w])) {
+    if (!isArabic(word[w]) || isMath(word[w])) {
       // space or other non-Arabic
       output += word[w];
       state = 'initial';
