@@ -47,3 +47,8 @@ test('Arabic digits', () => {
   let val = WordShaper("\u0661\u0662\u0663");
   expect(val).toEqual("١٢٣");
 });
+
+test('Arabic text and digits', () => {
+  let val = WordShaper('خیابان ارمغان ۳');
+  expect(val).toEqual('ﺧﯿﺎﺑﺎﻥ ﺍﺭﻣﻐﺎﻥ ۳');
+});

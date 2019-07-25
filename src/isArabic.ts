@@ -30,5 +30,5 @@ export function isMath (char : string) {
     throw new Error('isMath works on only one-character strings');
   }
   let code = char.charCodeAt(0);
-  return (code >= 0x660 && code <= 0x66C);
+  return ((code >= 0x660 && code <= 0x66C) || (code >= 0x6F0 && code <= 0x6F9));
 }
