@@ -52,3 +52,13 @@ test('Arabic text and digits', () => {
   let val = WordShaper('خیابان ارمغان ۳');
   expect(val).toEqual('ﺧﯿﺎﺑﺎﻥ ﺍﺭﻣﻐﺎﻥ ۳');
 });
+
+test('Arabic and Latin text', () => {
+  let arName = 'شارع فرانشيت دسبيراي',
+      shaped = WordShaper(arName);
+  let val = WordShaper('Avenue Franchet d\'Esperey ' + arName);
+  expect(val).toEqual('Avenue Franchet d\'Esperey ' + shaped);
+
+  let val2 = WordShaper(arName + ' Avenue Franchet d\'Esperey');
+  expect(val2).toEqual(shaped + ' Avenue Franchet d\'Esperey');
+});
