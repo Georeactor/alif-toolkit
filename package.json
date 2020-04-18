@@ -4,9 +4,6 @@
   "description": "Tools for Arabic language word games",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "dependencies": {
-    "request": "^2.88.0"
-  },
   "devDependencies": {
     "@types/jest": "^25.1.0",
     "jest": "^24.9.0",
